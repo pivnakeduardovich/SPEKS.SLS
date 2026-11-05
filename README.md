@@ -4,14 +4,6 @@
 
 ### Компактный SLS-принтер с альтернативной системой подачи порошка
 
-![Область печати](https://img.shields.io/badge/область_печати-150×150×150_мм-2b6cb0)
-![Бюджет](https://img.shields.io/badge/бюджет-15_000_₽-38a169)
-![CAD](https://img.shields.io/badge/CAD-КОМПАС--3D-d69e2e)
-![Прошивка](https://img.shields.io/badge/прошивка-Klipper-805ad5)
-![Статус](https://img.shields.io/badge/статус-проектирование-e53e3e)
-
-<img src="docs/images/obshiy_vid.png" alt="Общий вид принтера" width="720">
-
 </div>
 
 ---
@@ -48,11 +40,6 @@
    └──────────────── повтор ───────────────────┘
 ```
 
-<div align="center">
-<img src="docs/images/xy_portal.png" alt="Портал XY и оптика" width="720">
-<br><sub>Портал XY (H-bot), каретка с зеркалом и узел фокусировки</sub>
-</div>
-
 ## Структура репозитория
 
 | Папка | Что внутри |
@@ -62,7 +49,6 @@
 | [`STEP/`](STEP) | STEP-модели покупных и собственных деталей (профиль 20×20, подшипники, моторы, зеркала) |
 | [`SLS stp for IA/`](SLS%20stp%20for%20IA) | рабочая сборка; в [`АртSLS/`](SLS%20stp%20for%20IA/АртSLS) актуальная версия с гребёнкой, ремнями и оптикой |
 | [`Мои профили/`](Мои%20профили) | библиотека профилей КОМПАС |
-| [`docs/images/`](docs/images) | рендеры для README |
 
 > Файлы `.a3d` и `.m3d` открываются в **КОМПАС-3D**, `.stp` / `.STEP` — в любом CAD (Fusion 360, FreeCAD, SolidWorks).
 
@@ -76,10 +62,6 @@
 - [ ] Электроника и конфиг Klipper
 - [ ] Собственный слайсер
 - [ ] Сборка прототипа и тестовая печать
-
-<div align="center">
-<img src="docs/images/vid_speredi.png" alt="Вид спереди" width="560">
-</div>
 
 ---
 
