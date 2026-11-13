@@ -1,0 +1,95 @@
+(kicad_sch
+  (version 20230121)
+  (generator eeschema)
+  (uuid 7dd2a8c1-69f8-5584-b2c5-c586700a42d2)
+  (paper "A4")
+  (title_block
+    (title "СПЕКС · схема электрическая принципиальная")
+    (date "2026-11-13")
+    (rev "1")
+    (company "СПЕКС · SLS-принтер 150×150×150 мм")
+    (comment 1 "Лист 1 (Э3). Содержание")
+    (comment 2 "Разработал: Piv; схему собрал Claude"))
+  (lib_symbols)
+  (sheet
+    (at 40 60)
+    (size 80 40)
+    (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0))
+    (uuid b4a23312-def4-50c4-b054-c5e579efb98e)
+    (property
+      "Sheetname"
+      "Силовая часть и лазер"
+      (at 40 59.2 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom)))
+    (property
+      "Sheetfile"
+      "silovaya_i_lazer.kicad_sch"
+      (at 40 100.6 0)
+      (effects (font (size 1.27 1.27)) (justify left top)))
+    (instances (project "speks" (path "/7dd2a8c1-69f8-5584-b2c5-c586700a42d2" (page "2")))))
+  (sheet
+    (at 160 60)
+    (size 80 40)
+    (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0))
+    (uuid b67e416b-1057-5faf-99f5-b7c1ba732728)
+    (property
+      "Sheetname"
+      "Управление (24 В)"
+      (at 160 59.2 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom)))
+    (property
+      "Sheetfile"
+      "upravlenie.kicad_sch"
+      (at 160 100.6 0)
+      (effects (font (size 1.27 1.27)) (justify left top)))
+    (instances (project "speks" (path "/7dd2a8c1-69f8-5584-b2c5-c586700a42d2" (page "3")))))
+  (text
+    "СПЕКС: схема электрическая принципиальная (Э3)"
+    (at 40 120 0)
+    (effects (font (size 2 2) bold) (justify left bottom))
+    (uuid 9f56e021-fb5e-56c3-b6d0-04f48c7a863a))
+  (text
+    ""
+    (at 40 125 0)
+    (effects (font (size 1.5 1.5)) (justify left bottom))
+    (uuid f0bbc46f-341f-5115-889a-4ba98bf6aa70))
+  (text
+    "Лист 2: сеть 220 В, БП G1/G2, нагрев через SSR, CO2-лазер, контур блокировки, плата сопряжения A3."
+    (at 40 130 0)
+    (effects (font (size 1.5 1.5)) (justify left bottom))
+    (uuid bd60b7a9-ead8-5a77-8f6f-6b57eeca9839))
+  (text
+    "Лист 3: плата BTT Octopus Pro (A1), 6 шаговых моторов, 7 концевиков, 3 термистора, хост Klipper."
+    (at 40 135 0)
+    (effects (font (size 1.5 1.5)) (justify left bottom))
+    (uuid 7c1d2c0a-410a-5382-9bf4-8a02c8f3da12))
+  (text
+    "Межлистовые цепи: HB_OUT, HE0_OUT, HE1_OUT, LASER_PWM, LASER_EN, +24V, GND."
+    (at 40 140 0)
+    (effects (font (size 1.5 1.5)) (justify left bottom))
+    (uuid ff3b033e-2380-570d-a0a1-379f7214318b))
+  (text
+    ""
+    (at 40 145 0)
+    (effects (font (size 1.5 1.5)) (justify left bottom))
+    (uuid 1c53cfcf-0d13-5e1b-9280-f4984a2effcb))
+  (text
+    "Допущения (не утверждены): CO2 40 Вт + MYJG-40, LRS-200-24, TMC5160 для NEMA23,"
+    (at 40 150 0)
+    (effects (font (size 1.5 1.5)) (justify left bottom))
+    (uuid 2f987896-5d50-5840-a474-c5d29cf05836))
+  (text
+    "Orange Pi Zero 3, нагреватели 250 + 200 Вт, реле протока, NTC 100k."
+    (at 40 155 0)
+    (effects (font (size 1.5 1.5)) (justify left bottom))
+    (uuid 1c8f9cd4-f629-503a-8302-593a763616c7))
+  (text
+    "Поле «Цена_руб» у каждого компонента: ориентировочно, ноябрь 2026."
+    (at 40 160 0)
+    (effects (font (size 1.5 1.5)) (justify left bottom))
+    (uuid 9cd7f74d-59b0-5f8a-b80e-fdf883aab3af))
+  (sheet_instances (path "/" (page "1"))))

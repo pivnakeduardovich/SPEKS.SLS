@@ -5,3 +5,10 @@
 
 # Рабочая папка Claude (пробные файлы и скрипты)
 Claude/
+
+# KiCad
+*-backups/
+*.kicad_prl
+fp-info-cache
+_autosave-*
+*.lck
